@@ -67,7 +67,7 @@ public ModelAndView showCreateForm() {
     return modelAndView;
 }
 
-    @Value("${file-upload}")
+    @Value("${message.properties}")
     private String fileUpload;
     // Phương thức thêm sản phẩm có hình ảnh
     @PostMapping("/product/save")
